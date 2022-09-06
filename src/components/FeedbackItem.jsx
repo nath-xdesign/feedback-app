@@ -6,6 +6,7 @@ import Card from "./shared/Card"
 
 function FeedbackItem({ item }) {
   const { deleteFeedback, editFeedback } = useContext(FeedbackContext)
+  console.log("Hello test commit")
 
   return (
     <Card>
